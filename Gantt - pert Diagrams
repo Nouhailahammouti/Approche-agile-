@@ -1,0 +1,107 @@
+# 📊 Gantt Diagram
+
+## Example Project Planning
+
+| Task         | Start  | Duration | End    |
+| ------------ | ------ | -------- | ------ |
+| Requirements | Day 1  | 2 days   | Day 3  |
+| Design       | Day 3  | 3 days   | Day 6  |
+| Development  | Day 6  | 5 days   | Day 11 |
+| Testing      | Day 11 | 3 days   | Day 14 |
+| Deployment   | Day 14 | 1 day    | Day 15 |
+
+### Gantt Chart
+
+```
+Requirements  ███
+Design        █████
+Development   █████████
+Testing       █████
+Deployment    ██
+```
+
+---
+
+# 📈 PERT Diagram
+
+## Project Flow
+
+```
+Start
+  |
+  ▼
+Requirements
+  |
+  ▼
+Design
+  |
+  ▼
+Development
+  |
+  ▼
+Testing
+  |
+  ▼
+Deployment
+  |
+  ▼
+End
+```
+
+---
+
+# 📊 PERT Network Diagram
+
+```
+(Start)
+   |
+   ▼
+[A] Requirements
+   |
+   ▼
+[B] Design
+   |
+   ▼
+[C] Development
+   |
+   ▼
+[D] Testing
+   |
+   ▼
+[E] Deployment
+   |
+   ▼
+(End)
+```
+
+---
+
+# 🎯 Critical Path Example
+
+```
+Start → A → B → C → D → E → End
+```
+
+Critical Path:
+
+* Requirements
+* Design
+* Development
+* Testing
+* Deployment
+
+---
+
+# 📌 When to Use
+
+## Gantt Chart
+
+* Planning tasks
+* Tracking time
+* Managing deadlines
+
+## PERT Chart
+
+* Understanding dependencies
+* Finding critical path
+* Planning complex projects
